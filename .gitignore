@@ -1,0 +1,32 @@
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+dist/
+build/
+*.egg-info/
+.coverage
+htmlcov/
+
+# secrets / local config
+.env
+.env.*
+!.env.example
+deploy/entra/out/
+*.pem
+*.pfx
+
+.idea/
+.vscode/
+
+# local demo
+gateway.db
+deploy/entra/out/
+.msal_cache.json
+
+# local PostgreSQL demo
+.demo-pg/
+.demo-pg.log
+.demo-pg-server.log
